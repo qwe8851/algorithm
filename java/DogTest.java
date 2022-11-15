@@ -1,5 +1,5 @@
 // Dog 클래스 만들기 연습
-public class Dog {
+public class DogTest {
   public static void main(String[] args) {
     // Dog 객체 생성
     Dog d = new Dog();
