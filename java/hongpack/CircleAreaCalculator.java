@@ -1,3 +1,5 @@
+package hongpack;
+
 public class CircleAreaCalculator {
   public static void main(String[] args) {
     int r = Integer.parseInt(args[0]);

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-3.6.1.js" ></script>
+</head>
+<body>
+   <h1>하이</h1>
+   <input id="input1" type="text">
+   <input id="input2" type="text">
+   <button id="btn" onclick="inputValue()">전송</button><br>
+   <label id="contents">label</label>
+   
+   <script>
+      function inputValue(){
+         let input1 = $("#input1").val();
+         let input2 = $("#input2").val();
+         
+          let send = $.ajax({
+              url: "/valueTest?value1="+encodeURIComponent(input1)+"&value2="+encodeURIComponent(input2),
+              type: "GET",
+              success: (obj) => {
+                 console.log(obj.value1, obj.value2);
+                 $('#contents').text('value1: '+obj.value1+', value2: '+obj.value2);
+              },
+              error : ()=>{
+                 console.log("error");
+              }
+          });
+         
+//          $("#contents").text("value1 : "+input1+" value2 : "+input2);
+      }
+    </script>
+   
+</body>
+</html>

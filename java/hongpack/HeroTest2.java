@@ -1,4 +1,5 @@
 // 파라미터로 객체 전달
+package hongpack;
 
 public class HeroTest2 {
     public static void main(String[] args) {

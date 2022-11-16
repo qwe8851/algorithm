@@ -1,4 +1,5 @@
 // 생성자(constructor) 호출/정의 최종 연습해보기
+package hongpack;
 
 public class Starcraft {
     public static void main(String[] args) {

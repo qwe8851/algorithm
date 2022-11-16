@@ -1,4 +1,5 @@
 // 정사각형 클래스 구현 해보기
+package hongpack;
 
 public class SquareTest {
   public static void main(String[] args) {

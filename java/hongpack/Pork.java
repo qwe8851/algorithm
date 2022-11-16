@@ -1,3 +1,5 @@
+package hongpack;
+
 public class Pork {
   public static void main(String[] args) {
     int g = 180;

@@ -1,4 +1,5 @@
 // 사라진 디폴트 생성자 
+package hongpack;
 
 public class DrinkTest {
     public static void main(String[] args) {

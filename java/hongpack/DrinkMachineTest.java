@@ -1,6 +1,7 @@
 // 메소드 스코프(scope) 연습해보기
 // 메소드 스코프 : 파라미터와 지역변수
 // 클래스 스코프 : 필드
+package hongpack;
 
 public class DrinkMachineTest {
   public static void main(String[] args) {

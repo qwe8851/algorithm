@@ -1,5 +1,6 @@
-// 객체 배열 만들기
+package hongpack;
 
+// 객체 배열 만들기
 public class SongTest {
     public static void main(String[] args) {
         // 객체 생성

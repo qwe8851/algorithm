@@ -1,4 +1,5 @@
 // 생성자 정의하기
+package hongpack;
 
 public class HeroTest {
     public static void main(String[] args) {

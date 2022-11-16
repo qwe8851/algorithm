@@ -1,5 +1,6 @@
 // 클래스 스코프(scope) 사용해보기
 // 같은 클래스를 두 번 정의해서 쓸 수 있구먼.. .
+package hongpack;
 
 public class CatTest3 {
   public static void main(String[] args) {

@@ -1,4 +1,6 @@
 // Dog 클래스 만들기 연습
+package hongpack;
+
 public class DogTest {
   public static void main(String[] args) {
     // Dog 객체 생성

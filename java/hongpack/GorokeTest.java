@@ -1,4 +1,5 @@
 // String.format() 메소드
+package hongpack;
 
 public class GorokeTest {
   public static void main(String[] args) {

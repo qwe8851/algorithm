@@ -1,4 +1,5 @@
 // CatTest클래스 생성 및 닷 연산자 사용해서 값 변경해보기
+package hongpack;
 
 public class CatTest {
   public static void main(String[] args) {

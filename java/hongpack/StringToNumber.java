@@ -1,3 +1,5 @@
+package hongpack;
+
 public class StringToNumber {
   public static void main(String[] args) {
     // 변수 생성
