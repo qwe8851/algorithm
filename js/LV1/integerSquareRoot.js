@@ -30,7 +30,7 @@ function solution(n) {
     }
 }
 
-// ✨ 다른풀이 1
+// ✨ 다른풀이 2
 function solution(n) {
     let n = Math.sqrt(n);
     let result = 0;
