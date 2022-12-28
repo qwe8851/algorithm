@@ -68,7 +68,7 @@ function solution(s) {
 
 
 
-// .📝 다시 풀이
+// 📝 다시 풀이
 function solution(s) {
     let answer;
 
