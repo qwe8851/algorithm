@@ -12,8 +12,7 @@ function solution(n) {
     }
 }
 
-
-// 📝 다시 풀이 1
+// 🤔 내풀이2
 function solution(n, i = 1) {
     i++;
     return n % i == 1 ? i : solution(n, i);
